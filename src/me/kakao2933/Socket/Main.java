@@ -6,8 +6,8 @@ public class Main {
 		
 		System.out.println("Process running..");
 		
-		new Server().start();
-		new Client().start();
+		new Server().start(); // Start Server Thread
+		new Client().start(); // Start Client Thread
 		
 		System.out.println("End of main method");
 		
